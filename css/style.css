@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Arvo:400,700');
+body {
+	background-color: #55acee;
+	font-family: 'Arvo', serif;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+#container {
+	background-image: url("../img/tile.jpg");
+	border-radius: 10px;
+	margin: 2em auto;
+	padding: 2em;
+	width: 800px;
+	border: 3px solid #333;
+}
+
+h1, h2 {
+	font-family: 'Pacifico', cursive
+}
+
+h2 {
+	color: #55acee;
+	font-size: 2em;
+	text-align: center;
+}
+
+header {
+	background-image: url("../img/header.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	padding: 2em;
+	text-align: center;
+}
+
+header h1, header h2 {
+	color: #55acee;
+	text-shadow: 3px 3px #000;
+}
+
+header h1 {
+	font-size: 4em;
+}
+
+header h2 {
+	padding-bottom: 1em;
+	font-family: inherit;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+header nav a:link, header nav a:visited {
+	background-color: #333;
+	border-radius: 5px;
+	box-shadow: 3px 3px #000;
+	color: #55acee;
+	font-family: 'Pacifico', cursive;
+	font-size: 1.6em;
+	font-weight: bold;
+	padding: 12px 20px;
+	text-decoration: none;
+}
+
+header nav a:hover {
+	color: #333;
+	background-color: #55acee;
+	text-shadow: none;
+}
+
+section {
+	margin-top: 50px;
+	padding: 10px 20px 20px;
+}
+
+section h2 {
+	background-color: #333;
+	color: #55acee;
+	padding: 24px;
+}
+
+#profil {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#profil #img-container {
+	display: flex;
+	align-items: center;
+	justify-content: auto;
+	border: 5px solid #55acee;
+	box-shadow: 3px 3px #333;
+	border-radius: 50%;
+	height: 200px;
+	overflow: hidden;
+	width: 200px;
+	position: relative;
+}
+
+#profil #img-container img {
+	position: absolute;
+	right: -40px;
+}
+
+blockquote {
+	background-color: #55acee;
+	border-radius: 10px;
+	box-shadow: 5px 5px #333;
+	padding: 2em;
+	color: #333;
+	font-style: italic;
+	width: 30%;
+	line-height: 2.6em;
+	text-align: center;
+}
+
+blockquote p {
+	margin-top: 0;
+	font-size: 1.6em;
+}
+
+blockquote cite {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#experiences {
+	background-color: #55acee;
+	box-shadow: 5px 5px #333;
+	color: #333;
+	border-radius: 10px;
+	font-size: 1.1em;
+}
+
+#experiences a:link, #experiences a:visited {
+	background-color: #333;
+	border-radius: 20px;
+	color: #55acee;
+	padding: 8px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#experiences a:hover {
+	background-color: #e7859c;
+	color: #ddd;
+	text-shadow: 1px 1px 3px #333;
+}
+
+#experiences h3 {
+	margin: 50px 0 20px;
+	font-size: 1em;
+}
+
+#competences {
+	background-color: #e7859c;
+	border-radius: 10px;
+	box-shadow: 5px 5px #333;
+	color: #ddd;
+}
+
+#competences h2 {
+	color: #ddd;
+}
+
+#perks {
+	display: flex;
+	flex-flow: row wrap;
+	margin-bottom: 1em;
+}
+
+.perk {
+	width: 25%;
+	margin: 0;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.perk i {
+	display: block;
+	font-size: 6em;
+	color: #333;
+	text-shadow: 1px 1px 1px #000;
+	margin-bottom: 10px;
+}
+
+figcaption {
+	font-size: 1.1em;
+	background-color: #333;
+	padding: 7px 12px;
+	display: inline-block;
+}
+
+/*#competences table {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	color: white;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#competences th, #competences td {
+	padding: 10px;
+}
+
+#competences th {
+	color: #e7859c;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#competences td {
+	border: 1px solid #ddd;
+}
+
+#competences table thead {
+	background-color: #ddd;
+}*/
+
+#portfolio {
+	padding: 0;
+}
+
+#portfolio h2 {
+	border-radius: 10px;
+}
+
+#pictures {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer {
+	background-color: #333;
+	border-radius: 10px;
+	/*box-shadow: 5px 5px #333;*/
+	padding: 1em;
+	margin: 2em auto 0;
+	text-align: center;
+	color: #ddd;
+}
+
+footer #phone {
+	color: #55acee;
+	font-size: 1.4em;
+}
+
+footer a#button:link, footer a#button:visited {
+	background-color: #55acee;
+	border-radius: 10px;
+	box-shadow: 3px 3px #000;
+	display: inline-block;
+	color: #333;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+	text-transform: none;
+	font-size: 1.5em;
+}
+
+footer a#button:hover {
+	background-color: #e7859c;
+	color: #ddd;
+}
+
+footer a:hover > #at {
+	color: #ddd;
+}
+
+footer a#back-to-top:link, footer a#back-to-top:visited {
+	margin-top: 20px;
+	color: #ddd;
+	display: block;
+	background: none;
+	text-decoration: underline;
+}
